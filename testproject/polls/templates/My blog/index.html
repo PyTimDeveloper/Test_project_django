@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Timoha</title>
+    <meta name="description" content="Це блог Тимофія сайт модернізується" />
+    <link rel="stylesheet" href="{% static 'css/My blog/style.css' %}" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0 "
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shourtcut icon"
+      type="images/png"
+      href="{% static 'img/logo.png' %}"
+    />
+  </head>
+  <body>
+    <div class="info">
+      <img src="{% static 'img/tim.jpg' %}" class="avatar" />
+      <br />
+      <span class="main-text">
+        Мене звуть Тимофій, Живу в Україні.
+        <br />
+        Захоплююся розробкою Telegram ботів.
+        <br />
+        Пишу на Python, як сервер використовую Heroku і pythonanywhere.
+        <br />
+      </span>
+      <div class="kontact">
+        <p>Контакти:</p>
+        <a class="Telegram" href="tg://resolve?domain=PyTim"></a>
+        <a
+          class="Instagram"
+          href="https://instagram.com/Timofiyofficial"
+          target="_blank"
+        ></a>
+        <a class="Tel" href="tel:+380632155848"></a>
+      </div>
+    </div>
+    <div class="knopki">
+      <form action="/news/">
+        <button type="submit">Новини</button>
+      </form>
+      
+    </div>
+  </body>
+</html>
