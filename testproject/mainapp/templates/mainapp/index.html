@@ -3,7 +3,7 @@
 {% block content %}
 {% include 'header.html' %}
 <main>
-  <h1>Новини</h1>
+  <h1>Всё последные новости</h1>
   {% for p in post %}
   <h2>{{ p.name }}</h2>
   <img src="{{ p.img.url }}" alt="{{ p.name }}" height="100">
