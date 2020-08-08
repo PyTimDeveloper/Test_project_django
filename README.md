@@ -1,1 +1,1 @@
-# Test_project_django
+# First django application
