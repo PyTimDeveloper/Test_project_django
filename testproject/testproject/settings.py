@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'y==+ug+mj7pgjr!xb9#xxe6!)ft)9)u4klpc9j#n8t5#sokm^g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -128,3 +128,4 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static/'),
 )
 
+ADMIN_MEDIA_PREFIX = '/static/admin/'
